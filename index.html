@@ -2,15 +2,8 @@
 <html>
   <body>
     <h1>Hey Guys</h1>
-    <p>I'm only testing my instagram API</p>
-    <p>It is troublesome and meddlesome</p>
     <p>
-      <?php
-$url = "https://graph.instagram.com/me?fields=id,username&access_token=IGQVJVWHRGOFZANWkJZAZAmJJWWFtdjZADd0I5Q2xuVUlwZAy1pSFJoTkFwWHVVTVJoS0ZAPZAWoyb29YWkVHOXRpUU9uZADh1dFk1MU1vdnc4dWNPUXVuaFVFS19mWlJ3ZA3B3MW16dV9ROEE5V05YSmxXRmx1NgZDZD";
-$result = file_get_contents($url);
-$result = json_decode($result,true);
-echo $result;
-?>
+      It works only for static websites. For anything dynamic we have to store and fetch from other servers.
     </p>
   </body>
 </html>
